@@ -1,0 +1,138 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: 'SF Compact Display', sans-serif;  
+    position: relative;                                  
+}
+
+.nav-link{
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.bottom{
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-right: 50px;
+}
+
+.navbar-text{
+    font-family: 'SF Mono', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.25em;
+    color: #000000;
+
+                                                
+}
+
+@media (min-width: 1400px) { 
+    .vl {
+        border-left: 2px solid white;
+        height: 400px;
+        top: 12%;
+        right: 40%;
+      }
+
+    .box{
+        margin-top: 20%;
+        position: absolute;
+        width: 310px;
+        height: 55px;
+        background-color: yellow;   
+    }
+    .fname{
+        position: absolute;
+    }
+    .lname{
+        margin-left: 28.5%;
+    }
+    .angka{
+        font-size: 70px;
+    }
+    .juara{
+        padding-left: 20px;
+        color: black;
+        letter-spacing: 0.1em;
+    }
+    .juara h1{
+        font-weight: bold;
+    }
+    .grade img{
+        margin: 0px 20px 100px 20px;
+    }
+ }
+
+ @media (min-width: 1900px) { 
+    .box{
+        margin-top: 15%;
+        position: absolute;
+        width: 550px;
+        height: 60px;
+        background-color: yellow;   
+    }
+  }
+
+
+.name1{
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 3em 0 0 0;
+    color: transparent;
+    -webkit-text-stroke: 0.5px white;
+}
+.name{
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.aboutMe{
+    font-family: 'SF Mono', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+    margin: 15em 0;
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.card-text{
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    color: #000000;
+}
+
+.btn-outline-dark{
+    border-radius: 0;
+    color: black;
+    text-transform: uppercase;
+}
+
+.card-body{
+    padding: 30px;
+}
+
+.angka{
+    font-size: 70px;
+}
+.juara{
+    padding-left: 20px;
+    color: black;
+    letter-spacing: 0.1em;
+}
+.juara h1{
+    font-weight: bold;
+}
+
+.grade h2{ 
+    font-size: 45px; 
+    padding: 0.5em 0em;
+}
